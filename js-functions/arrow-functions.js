@@ -1,12 +1,13 @@
 // arrow function was introduced in ES6, ECMAScript, ES6 => ECMMAScript 2015
 
 // anonymous arrow function
-() => {};
+const greetData = () => {};
 
 // arrow function
-const greetUser = (name) => {;
+const greetUser = (name) => {
+    returm `Hello, my name is ${name!}`;
+};
+    
+    greetUser("Gap");
 
-    greetUser("Neeti");
-
-    console.log(greetUser("Neeti"));
-}
+    console.log(greetUser("Gap));
