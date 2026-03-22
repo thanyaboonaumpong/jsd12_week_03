@@ -5,9 +5,9 @@ const greetData = () => {};
 
 // arrow function
 const greetUser = (name) => {
-    returm `Hello, my name is ${name!}`;
+    return `Hello, my name is ${name}`;
 };
     
     greetUser("Gap");
 
-    console.log(greetUser("Gap));
+    console.log(greetUser("Gap"));
